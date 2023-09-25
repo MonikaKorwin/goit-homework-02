@@ -1,6 +1,77 @@
-  <style>
-  body {
-      font-family: 'Roboto', sans-serif;
-  }
 
-  </style>
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --socondary-font: 'Raleway', sans-serif;
+  --dark-color: #2E2F42; 
+  --primarybrand-color:#4D5AE5;
+  --text-color: #434455; 
+  --modalbackground-color: #fff;
+
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+
+/* =============HEADER INDEX.HTML============ */
+
+.navigation {
+  color: var(--dark-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+
+.logo {
+color: var(--dark-color);
+  font-family: var(----socondary-font);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.166;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.studio{
+color: var(--primarybrand-color);
+}
+
+.navigation-pages,
+.navigation-contact {
+  list-style-type: none;
+  
+}
+
+.navigation-page{
+text-decoration: none;
+color: var(--dark-color);
+}
+
+.email,
+.phone{
+color: var(--text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+text-decoration: none;
+font-style: normal;
+}
+
+.sollutions{
+  background-color: var(--dark-color);
+}
+.sollutions-tiitle{
+color: var(--modalbackground-color);
+  text-align: center;
+  font-size: 56px;  
+  font-weight: 700;
+  line-height: 1.071;
+    letter-spacing: 1.12px;
+
+}
