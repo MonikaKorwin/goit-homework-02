@@ -8,10 +8,13 @@
   --light-color: #F4F4FD;
   --accent-color: #E7E9FC;
   --pressedstate-color: #404BBF;
+
 }
 
 body {
   font-family: var(--main-font);
+  color: var(--text-color);
+  background-color: var(--modalbackground-color);
 }
 
 /* =============HEADER INDEX.HTML============ */
@@ -30,12 +33,12 @@ body {
       background: var(--modalbackground-color);
 }
 .logo {
-  color: var(--dark-color);
-  font-family: var(----socondary-font);
+  color: var(--primarybrand-color);
+  
+  font-family: var(--socondary-font);
   font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.166;
+    font-weight: 800;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
@@ -44,10 +47,12 @@ body {
 .studio {
   color: var(--primarybrand-color);
 }
-
+.studio-header{
+color: var(--dark-color);
+}
 .navigation-pages,
 .navigation-contact {
-  list-style-type: none;
+  list-style: none;
 }
 
 .navigation-page {
@@ -97,7 +102,7 @@ body {
 }
 
 .feature-items {
-  list-style-type: none;
+  list-style: none;
 }
 
 .feature-name {
@@ -129,7 +134,7 @@ body {
 }
 
 .devices-list {
-  list-style-type: none;
+  list-style: none;
 }
 
 .team-tittle {
@@ -143,7 +148,7 @@ body {
 }
 
 .team-list {
-  list-style-type: none;
+  list-style: none;
 
   /* =============text-align: center;============ */
 }
@@ -202,7 +207,7 @@ body {
 }
 
 .buttons-list {
-  list-style-type: none;
+  list-style: none;
   
 }
 
@@ -232,7 +237,7 @@ cursor: pointer;
 }
 
 .apps-list {
-  list-style-type: none;
+  list-style: none;
 }
 
 .apps-name {
