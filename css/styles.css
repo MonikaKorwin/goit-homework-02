@@ -105,10 +105,15 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  background: var(--primarybrand-color);
-  cursor: pointer;devices-tittle
+  background-color: var(--primarybrand-color);
+  cursor: pointer;
+}
+
+.buttom-order:focus,
+.buttom-order:hover {
   background-color: var(--pressedstate-color);
 }
+
 
 /* .features-strategy {
   /* display: none; }*/
@@ -142,8 +147,6 @@ body {
   text-transform: capitalize;
 }
 
-
-
 .team {
   background-color: var(--light-color);
 }
@@ -160,7 +163,7 @@ body {
 
 
 
-  /* =============text-align: center;============ */
+/* =============text-align: center;============ */
 
 
 .team-member {
@@ -184,55 +187,63 @@ body {
   letter-spacing: 0.32px;
 }
 
-.footer-background {
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer {
   background: var(--dark-color);
+  color: var(--modalbackground-color);
 }
 
-.web-footer {
-  color: var(--primarybrand-color);
-}
 
 .studio-footer {
   color: var(--light-color);
 }
 
-.footer {
-  color: var(--modalbackground-color);
-}
-
-.footer-description {
+.footer-paragraph {
   color: var(--light-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
-.logo-footer {
-  font-family: var(--socondary-font);
-  color: var(--primarybrand-color);
-  font-size: 18px;
 
-  font-weight: 800;
-  line-height: 1.17;
-  /* 116.667% */
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
 
-.link {
-  text-decoration: none;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* =============portfolio;============ */
 
-/* .buttons-tittle {
-  /* display: none; */
-*/ .buttons-list {
-  list-style: none;
-}
+
 
 .button-name {
+  font-family: var(--main-font);
   color: var(--primarybrand-color);
   text-align: center;
   font-size: 16px;
@@ -251,16 +262,17 @@ body {
   background-color: var(--pressedstate-color);
 }
 
-/* .apps-tittle {
-  /* display: none; */
-*/ .apps-list {
-  list-style: none;
-}
-
 .apps-name {
   color: var(--dark-color);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
+}
+
+.apps-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }

@@ -1,0 +1,17 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --socondary-font: 'Raleway', sans-serif;
+    --dark-color: #2e2f42;
+    --primarybrand-color: #4d5ae5;
+    --text-color: #434455;
+    --modalbackground-color: #fff;
+    --light-color: #f4f4fd;
+    --accent-color: #e7e9fc;
+    --pressedstate-color: #404bbf;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--text-color);
+    background-color: var(--modalbackground-color);
+}
