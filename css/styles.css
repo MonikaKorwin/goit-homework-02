@@ -19,15 +19,7 @@ body {
 
 /* =============HEADER INDEX.HTML============ */
 
-.navigation {
-  color: var(--dark-color);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-  text-decoration: none;
 
-}
 .header{
     border-bottom: 1px solid var(--accent-color);
       background: var(--modalbackground-color);
@@ -45,20 +37,32 @@ body {
 }
 
 .studio {
-  color: var(--primarybrand-color);
+  color: var(--dark-color);
 }
-.studio-header{
-color: var(--dark-color);
+
+.address{
+font-style: normal;
+
 }
 .navigation-pages,
 .navigation-contact {
   list-style: none;
 }
 
+
 .navigation-page {
   text-decoration: none;
   color: var(--dark-color);
-}
+      font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+    }
+
+  .navigation-page:hover,
+    navigation-page:focus{
+      color: var(--pressedstate-color);
+    }
 
 .email,
 .phone {
@@ -69,6 +73,13 @@ color: var(--dark-color);
   letter-spacing: 0.32px;
   text-decoration: none;
   font-style: normal;
+}
+
+.email:hover,
+.phone:hover,
+.focus:hover,
+.focus:hover{
+color: var(--pressedstate-color);
 }
 
 /* =============SOLLUTIONS INDEX.HTML============ */
