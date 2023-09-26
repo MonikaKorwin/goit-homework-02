@@ -65,7 +65,8 @@ body {
 }
 
 .email,
-.phone {
+.phone.address,
+.contact {
   color: var(--text-color);
   font-size: 16px;
   font-weight: 400;
@@ -78,7 +79,9 @@ body {
 .email:hover,
 .phone:hover,
 .email:focus,
-.phone:focus {
+.phone:focus
+
+ {
   color: var(--pressedstate-color);
 }
 
@@ -115,8 +118,7 @@ body {
 }
 
 
-/* .features-strategy {
-  /* display: none; }*/
+
 
 
 .feature-name {
@@ -251,7 +253,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.64px;
   background-color: var(--light-color);
-  /* border-radius: 4px; */
+  
   border: 1px solid var(--accent-color);
   cursor: pointer;
 }
