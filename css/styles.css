@@ -94,11 +94,12 @@ color: var(--pressedstate-color);
 
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.071;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 
 .buttom-order {
+  font-family: var(--main-font);
   color: var(--modalbackground-color);
   font-size: 16px;
   font-weight: 500;
@@ -106,7 +107,13 @@ color: var(--pressedstate-color);
   letter-spacing: 0.64px;
   background: var(--primarybrand-color);
   cursor: pointer;
+
 }
+.buttom-order:hover,
+.buttom-order:focus{
+  background-color:var(--pressedstate-color);
+}
+
 
 .features-strategy {
   display: none;
@@ -129,7 +136,7 @@ color: var(--pressedstate-color);
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -140,22 +147,24 @@ color: var(--pressedstate-color);
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
-  letter-spacing: 1.111;
+  letter-spacing: 1.11;
   text-transform: capitalize;
 }
 
 .devices-list {
   list-style: none;
 }
-
+.team{
+  background-color: var(--light-color);
+}
 .team-tittle {
   color: var(--dark-color);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 1.111;
-  text-transform: capitalize;
+  line-height: 1.11;
+    text-transform: capitalize;
+  letter-spacing: 0.02em
 }
 
 .team-list {
@@ -163,7 +172,10 @@ color: var(--pressedstate-color);
 
   /* =============text-align: center;============ */
 }
-
+.team-member
+{
+  background-color: var(--modalbackground-color);
+}
 .team-name {
   color: var(--dark-color);
   font-size: 20px;
@@ -177,7 +189,7 @@ color: var(--pressedstate-color);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -191,11 +203,16 @@ color: var(--pressedstate-color);
 }
 
 .studio-footer {
+  color: var(--light-color);
+}
+
+.footer{
   color: var(--modalbackground-color);
 }
 
 .footer-description {
-  color: var(--modalbackground-color);
+
+  color: var(--light-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -203,9 +220,21 @@ color: var(--pressedstate-color);
 
 }
 
+.logo-footer{
+  font-family: var(--socondary-font);
+    color: var(--primarybrand-color) ;
+    font-size: 18px;
+    
+    font-weight: 800;
+    line-height: 1.17;
+    /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
 
-
-
+.link{
+  text-decoration: none;
+}
 
 
 
