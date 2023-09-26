@@ -5,10 +5,9 @@
   --primarybrand-color: #4d5ae5;
   --text-color: #434455;
   --modalbackground-color: #fff;
-  --light-color: #F4F4FD;
-  --accent-color: #E7E9FC;
-  --pressedstate-color: #404BBF;
-
+  --light-color: #f4f4fd;
+  --accent-color: #e7e9fc;
+  --pressedstate-color: #404bbf;
 }
 
 body {
@@ -19,8 +18,7 @@ body {
 
 /* =============HEADER INDEX.HTML============ */
 
-
-.link{
+.link {
   text-decoration: none;
 }
 
@@ -39,20 +37,17 @@ body {
   color: var(--dark-color);
 }
 
-.list{
+.list {
   list-style: none;
-  }
+}
 
 .address {
   font-style: normal;
-
 }
-
 
 .navigation-contact {
   list-style: none;
 }
-
 
 .navigation-page {
   text-decoration: none;
@@ -64,8 +59,8 @@ body {
 }
 
 .navigation-page:hover,
-navigation-page:focus,
-navigation-page:active {
+.navigation-page:focus,
+.navigation-page:active {
   color: var(--pressedstate-color);
 }
 
@@ -111,23 +106,13 @@ navigation-page:active {
   line-height: 1.5;
   letter-spacing: 0.64px;
   background: var(--primarybrand-color);
-  cursor: pointer;
-
-}
-
-.buttom-order:hover,
-.buttom-order:focus {
+  cursor: pointer;devices-tittle
   background-color: var(--pressedstate-color);
 }
 
+/* .features-strategy {
+  /* display: none; }*/
 
-.features-strategy {
-  /* display: none; */
-}
-
-.feature-items {
-  list-style: none;
-}
 
 .feature-name {
   color: var(--dark-color);
@@ -152,14 +137,12 @@ navigation-page:active {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 1.11;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
-.devices-list {
-  list-style: none;
-}
+
 
 .team {
   background-color: var(--light-color);
@@ -172,14 +155,13 @@ navigation-page:active {
   font-weight: 700;
   line-height: 1.11;
   text-transform: capitalize;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 
-.team-list {
-  list-style: none;
+
 
   /* =============text-align: center;============ */
-}
+
 
 .team-member {
   background-color: var(--modalbackground-color);
@@ -208,7 +190,6 @@ navigation-page:active {
 
 .web-footer {
   color: var(--primarybrand-color);
-
 }
 
 .studio-footer {
@@ -220,13 +201,11 @@ navigation-page:active {
 }
 
 .footer-description {
-
   color: var(--light-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-
 }
 
 .logo-footer {
@@ -245,19 +224,12 @@ navigation-page:active {
   text-decoration: none;
 }
 
-
-
-
-
-
 /* =============portfolio;============ */
-.buttons-tittle {
+
+/* .buttons-tittle {
   /* display: none; */
-}
-
-.buttons-list {
+*/ .buttons-list {
   list-style: none;
-
 }
 
 .button-name {
@@ -277,15 +249,11 @@ navigation-page:active {
 .button-name:focus {
   color: var(--modalbackground-color);
   background-color: var(--pressedstate-color);
-
 }
 
-
-.apps-tittle {
+/* .apps-tittle {
   /* display: none; */
-}
-
-.apps-list {
+*/ .apps-list {
   list-style: none;
 }
 
