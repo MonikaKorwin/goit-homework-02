@@ -58,11 +58,11 @@ body {
   letter-spacing: 0.32px;
 }
 
-/* .navigation-page:hover,
+.navigation-page:hover,
 .navigation-page:focus,
 .navigation-page:active {
   color: var(--pressedstate-color);
-} */
+}
 
 .email,
 .phone,
